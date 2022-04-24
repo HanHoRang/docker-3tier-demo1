@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash mevely
 VOLUME_MOUNT_POINT=/data
 APP_NAME=redmine
 if [ ! -d $VOLUME_MOUNT_POINT/$APP_NAME/web/log ]; then
