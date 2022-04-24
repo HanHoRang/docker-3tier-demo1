@@ -1,4 +1,4 @@
-## Mevely 3tier application example 
+## Mevely 3tier application 
 This is a sample 3 tier application used to demonstrate some of the benefits of Docker with a deployment confined to a single host (Docker node):
 * **re-use of existing artifacts**: in this case is about to use an existing image, on Docker Hub, customize it and run in a composite 3 tier application service
 * **ability to move a workload seamlessly across multiple infrastructure**: at this time this is done as cold migration: stop the application, migrate the data and restart it in the new host (the application images are available on the Docker registry so ther is no need to transfer them) - the Containers in this case are fully stateless.
