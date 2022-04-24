@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash - mevely
 VOLUMES_ARCHIVE=redmine-volume-data.tar.gz
 VOLUME_MOUNT_POINT=/data
 APP_NAME=redmine
